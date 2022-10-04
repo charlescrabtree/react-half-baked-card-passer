@@ -15,12 +15,12 @@ const GameProvider = ({ children }) => {
   </GameContext.Provider>;
 };
 
-const useGame = () => {
-  const context = useContext(GameContext);
-  if (context === undefined) {
-    throw new Error('whoops, useGame must be contained within GameProvider');
-  }
-  return context;
-};
+// const useGame = () => {
+//   const context = useContext(GameContext);
+//   if (context === undefined) {
+//     throw new Error('whoops, useGame must be contained within GameProvider');
+//   }
+//   return context;
+// };
 
-export { GameProvider, useGame };
+export { GameProvider, GameContext };

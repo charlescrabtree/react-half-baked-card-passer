@@ -5,7 +5,7 @@ import CardList from './components/CardList';
 import { useState } from 'react';
 import ExecutePassButton from './components/ExecutePassButton';
 import { useContext } from 'react';
-import { GameContext } from './context/GameContext';
+import { GameContext } from './components/context/GameContext';
 
 function App() {
   const [deck, setDeck] = useState(initialCards);
