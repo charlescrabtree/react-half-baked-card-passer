@@ -2,7 +2,7 @@ import './App.css';
 import Player from './components/Player';
 import CardList from './components/CardList';
 import ExecutePassButton from './components/ExecutePassButton';
-import { useGame } from './components/context/GameContext';
+import { useGame } from './context/GameContext';
 
 function App() {
   const {
