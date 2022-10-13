@@ -17,9 +17,7 @@ function App() {
     playerThreeHand, 
     setPlayerThreeHand,
     from, 
-    setFrom,
     to, 
-    setTo 
   } = useGame();
 
   function findCardIndex(value, suit, cards) {
